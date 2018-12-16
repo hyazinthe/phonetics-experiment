@@ -1,0 +1,20 @@
+{
+    "projectName": "phonetics",
+    "projectPath": "C:\\Users\\mnaoi\\phonetics",
+    "defaultEditor": "code",
+    "frontendHandler": {
+        "javascript": "C:\\Users\\mnaoi\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-frontend-javascript"
+    },
+    "javascript": {
+        "framework": "vue",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "dist",
+            "BuildCommand": "yarn run build",
+            "StartCommand": "yarn run serve"
+        }
+    },
+    "providers": {
+        "awscloudformation": "C:\\Users\\mnaoi\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-provider-awscloudformation"
+    }
+}

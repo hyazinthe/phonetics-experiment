@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "phonetics",
+    "schemaGraphql": "s3://phonetics-20181216151152-deployment/amplify-appsync-files/schema.graphql.1544940884621",
+    "ResolverBucket": "phonetics-20181216151152-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1544940884621"
+}

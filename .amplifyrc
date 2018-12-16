@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "phonetics-20181216151152-authRole",
+            "UnauthRoleArn": "arn:aws:iam::976288089454:role/phonetics-20181216151152-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::976288089454:role/phonetics-20181216151152-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "phonetics-20181216151152-deployment",
+            "UnauthRoleName": "phonetics-20181216151152-unauthRole",
+            "StackName": "phonetics-20181216151152",
+            "StackId": "arn:aws:cloudformation:us-east-2:976288089454:stack/phonetics-20181216151152/79bfcb20-00f9-11e9-81cb-069569a529ae"
+        }
+    }
+}

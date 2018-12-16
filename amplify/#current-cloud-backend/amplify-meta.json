@@ -1,0 +1,32 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "phonetics-20181216151152-authRole",
+			"UnauthRoleArn": "arn:aws:iam::976288089454:role/phonetics-20181216151152-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::976288089454:role/phonetics-20181216151152-authRole",
+			"Region": "us-east-2",
+			"DeploymentBucketName": "phonetics-20181216151152-deployment",
+			"UnauthRoleName": "phonetics-20181216151152-unauthRole",
+			"StackName": "phonetics-20181216151152",
+			"StackId": "arn:aws:cloudformation:us-east-2:976288089454:stack/phonetics-20181216151152/79bfcb20-00f9-11e9-81cb-069569a529ae"
+		}
+	},
+	"api": {
+		"phonetics": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY",
+				"GraphQLAPIIdOutput": "epztezcra5h2rkmajhozijrdrq",
+				"GraphQLAPIEndpointOutput": "https://rxhfnfpcabdozjm2ouajhyn5vm.appsync-api.us-east-2.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-6pbw4q4cv5corbumzac22xxagy"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/phonetics-20181216151152-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apiphonetics"
+			},
+			"lastPushTimeStamp": "2018-12-16T06:17:38.442Z",
+			"lastPushDirHash": "ZCo0d+lw1vGGMkF1wRWL+FFCDeA="
+		}
+	}
+}
